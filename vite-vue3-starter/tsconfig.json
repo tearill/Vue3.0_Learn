@@ -8,6 +8,13 @@
     "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "noImplicitReturns": false,
+    "noFallthroughCasesInSwitch": true,
+    "listEmittedFiles": false,
+    "listFiles": false,
+    "pretty": true,
     "lib": ["esnext", "dom"],
     "types": ["vite/client"]
   },
