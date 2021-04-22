@@ -47,9 +47,6 @@ module.exports = {
         '@typescript-eslint/array-type': [
 			'error',
 			'off'
-		],
-        'init-declarations': 'error',
-        'no-var': 'error',
-        'no-console': 'error'
+		]
 	}
 };
