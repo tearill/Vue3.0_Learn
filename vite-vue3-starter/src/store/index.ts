@@ -1,3 +1,8 @@
+/**
+ * @file vuex store
+ * @author caigang
+ * @create 2021-4-22
+ */
 import { createStore } from 'vuex';
 
 const defaultState = {

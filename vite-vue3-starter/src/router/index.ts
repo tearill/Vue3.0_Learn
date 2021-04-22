@@ -1,3 +1,8 @@
+/**
+ * @file vue router config
+ * @author caigang
+ * @create 2021-4-22
+ */
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router';
 import Home from '@/views/home.vue';
 import Vuex from '@/views/vuex.vue';

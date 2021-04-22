@@ -1,3 +1,8 @@
+/**
+ * @file project axios config
+ * @author caigang
+ * @create 2021-4-22
+ */
 import Axios from 'axios';
 import { ElMessage } from 'element-plus';
 
