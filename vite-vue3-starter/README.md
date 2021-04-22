@@ -27,6 +27,7 @@ Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
 5. Search and run "Select TypeScript version" -> "Use workspace version"
 
 ### Category
+
 ```bash
 ├── publish/
 └── src/
@@ -47,3 +48,7 @@ Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
 ├── vite.config.ts                 // Vite 配置文件
 └── package.json
 ```
+
+### Format
+
+`npx prettier --write .`
