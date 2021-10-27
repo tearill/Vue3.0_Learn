@@ -11,3 +11,22 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 - static resources: /public
 - configuration: vite.config.js
 - core: /src
+
+## records & standards
+- npm install vue-router@next vuex@next => router & data manage
+- src
+    ```bash
+    ├── src
+    │   ├── api            request
+    │   ├── assets         static resources
+    │   ├── components     
+    │   ├── pages          
+    │   ├── router         router config
+    │   ├── store          vuex
+    │   └── utils          common functions
+    ```
+
+### Error records
+- Error: Cannot find module 'worker_threads'
+    - node -v
+    - upgrade node version / use nvm to manage node version(eg: 14)
