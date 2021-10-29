@@ -1,11 +1,10 @@
 <template>
     <h1>Home Page</h1>
+    <TodoList/>
 </template>
 
-<script>
-export default {
-
-}
+<script setup>
+import TodoList from '../components/TodoList.vue';
 </script>
 
 <style>
